@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 800px;
+    margin: 2em auto;
+    width: 80%;
+}
+
+home {
+    text-align: left;
+}
+
+.main {
+    width: 25%;
+    float: right;
+    margin-left: 10px;
+}
+
+p {
+    overflow: hidden;
+}
+
+body>* {
+    background-color: rgb(248, 191, 122);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, fantasy;
+    color: black;
+    font-size: 2.5rem;
+}
+
+header>section {
+    width: 1000px;
+    height: 200px;
+    background-image: url("../img/Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header>section>h1 {
+    font-size: 60pt;
+    color: Red;
+}
+
+border {
+    border: 1px solid black;
+}
+
+nav {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgb(248, 191, 122);
+    font-family: Impact, fantasy;
+    font-size: 30pt;
+
+}
+
+
+.nav a:hover {
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: black
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery>article {
+    width: 25%;
+    margin: 1em;
+}
+
+.gallery>article>img {
+    width: 100%;
+}
+
+footer {
+    background-color: #FFF;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
